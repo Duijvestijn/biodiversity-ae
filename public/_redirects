@@ -1,0 +1,4 @@
+# Cloudflare Pages redirects
+# Language detection: Arabic browsers → /ar, everyone else → /en
+/  /ar  302  Language=ar
+/  /en  302
