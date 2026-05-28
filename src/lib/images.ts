@@ -3,11 +3,12 @@
  * Source: Unsplash
  */
 
+const HF = "https://d8j0ntlcm91z4.cloudfront.net/user_3E7JAVPwA7DZLNJSwAYUmbE0qfD";
 const UNS = "https://images.unsplash.com";
 
 export const IMAGES = {
-  /** Hero: UAE desert/nature */
-  hero: `${UNS}/photo-1512236393954-2b2f4dae1f0e?auto=format&fit=crop&w=2400&q=85`,
+  /** Hero: Abu Dhabi mangroves aerial — Higgsfield soul_location */
+  hero: `${HF}/hf_20260528_230747_d308d52a-aa93-4658-bc29-57a41f02aea5.png`,
 
   /** Mangroves */
   mangroves: `${UNS}/photo-1559827291-72f590e49386?auto=format&fit=crop&w=2400&q=85`,
