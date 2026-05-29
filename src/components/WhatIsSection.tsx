@@ -7,7 +7,15 @@ import { translations } from "@/lib/translations";
 
 const FU = (d = 0) => ({
   hidden: { opacity: 0, y: 22 },
-  visible: { opacity: 1, y: 0, transition: { delay: d, duration: 0.65, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] } },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: d,
+      duration: 0.65,
+      ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
+    },
+  },
 });
 
 export default function WhatIsSection() {
@@ -24,27 +32,40 @@ export default function WhatIsSection() {
   ];
 
   return (
-    <section id="what-is" className="bg-ae-night py-24 md:py-32 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-ae-teal/[0.03] to-transparent pointer-events-none" />
+    <section id="what-is" className="bg-ae-page py-24 md:py-32 relative overflow-hidden">
       <div ref={ref} className="relative z-10 max-w-6xl mx-auto px-6">
         {/* Header */}
         <div className="max-w-3xl mb-16">
           <motion.div variants={FU(0)} initial="hidden" animate={inView ? "visible" : "hidden"}>
             <div className="inline-flex items-center gap-2 mb-4">
-              <span className="w-6 h-px bg-ae-gold/50" />
-              <span className="text-xs tracking-[0.25em] uppercase text-ae-gold/80 font-medium">{t.label}</span>
+              <span className="w-6 h-px bg-ae-teal" />
+              <span className="text-xs tracking-[0.25em] uppercase text-ae-teal font-semibold">
+                {t.label}
+              </span>
             </div>
           </motion.div>
-          <motion.h2 variants={FU(0.08)} initial="hidden" animate={inView ? "visible" : "hidden"}
-            className="font-serif text-4xl md:text-5xl font-bold text-white leading-tight mb-4">
+          <motion.h2
+            variants={FU(0.08)}
+            initial="hidden"
+            animate={inView ? "visible" : "hidden"}
+            className="font-serif text-5xl md:text-6xl font-bold text-ae-ink leading-tight mb-4"
+          >
             {t.title}
           </motion.h2>
-          <motion.p variants={FU(0.14)} initial="hidden" animate={inView ? "visible" : "hidden"}
-            className="text-ae-gold font-serif text-lg italic mb-6">
+          <motion.p
+            variants={FU(0.14)}
+            initial="hidden"
+            animate={inView ? "visible" : "hidden"}
+            className="text-ae-teal font-serif text-lg italic mb-6"
+          >
             {t.subtitle}
           </motion.p>
-          <motion.p variants={FU(0.2)} initial="hidden" animate={inView ? "visible" : "hidden"}
-            className="text-ae-sand/60 text-lg leading-relaxed">
+          <motion.p
+            variants={FU(0.2)}
+            initial="hidden"
+            animate={inView ? "visible" : "hidden"}
+            className="text-ae-muted text-lg leading-relaxed"
+          >
             {t.intro}
           </motion.p>
         </div>
@@ -52,20 +73,33 @@ export default function WhatIsSection() {
         {/* Steps */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-14">
           {steps.map((s, i) => (
-            <motion.div key={i} variants={FU(i * 0.1)} initial="hidden" animate={inView ? "visible" : "hidden"}
-              className="p-6 rounded-2xl bg-ae-dark/60 border border-white/[0.05] hover:border-ae-teal/25 transition-all group">
-              <div className="font-serif text-4xl font-bold text-ae-teal/15 mb-4 leading-none">{s.n}</div>
-              <h3 className="font-serif text-base font-bold text-white mb-2 group-hover:text-ae-gold transition-colors">{s.title}</h3>
-              <p className="text-ae-sand/45 text-xs leading-relaxed">{s.desc}</p>
+            <motion.div
+              key={i}
+              variants={FU(i * 0.1)}
+              initial="hidden"
+              animate={inView ? "visible" : "hidden"}
+              className="p-6 rounded-2xl bg-white shadow-sm border border-black/[0.06] hover:shadow-lg transition-all group"
+            >
+              <div className="font-serif text-4xl font-bold text-ae-teal/20 mb-4 leading-none">
+                {s.n}
+              </div>
+              <h3 className="font-serif text-base font-bold text-ae-ink mb-2 group-hover:text-ae-teal transition-colors">
+                {s.title}
+              </h3>
+              <p className="text-ae-muted text-xs leading-relaxed">{s.desc}</p>
             </motion.div>
           ))}
         </div>
 
         {/* Why it matters */}
-        <motion.div variants={FU(0.3)} initial="hidden" animate={inView ? "visible" : "hidden"}
-          className="p-8 rounded-3xl bg-ae-teal/[0.07] border border-ae-teal/20">
-          <h3 className="text-ae-gold font-bold text-sm mb-3">{t.whyTitle}</h3>
-          <p className="text-ae-sand/60 leading-relaxed">{t.whyDesc}</p>
+        <motion.div
+          variants={FU(0.3)}
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+          className="p-8 rounded-3xl bg-ae-teal/[0.08] border border-ae-teal/25"
+        >
+          <h3 className="text-ae-teal font-bold text-sm mb-3">{t.whyTitle}</h3>
+          <p className="text-ae-ink/75 leading-relaxed">{t.whyDesc}</p>
         </motion.div>
       </div>
     </section>

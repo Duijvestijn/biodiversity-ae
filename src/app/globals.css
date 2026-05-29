@@ -3,16 +3,21 @@
 
 @theme inline {
   /* UAE Biodiversity palette */
-  --color-ae-dark:        #08090A;
-  --color-ae-night:       #0C0E10;
-  --color-ae-gold:        #C8A415;
-  --color-ae-gold-light:  #E0BC30;
-  --color-ae-teal:        #007B8A;
-  --color-ae-teal-light:  #009AAB;
+  --color-ae-dark:        #0E1410;
+  --color-ae-night:       #131A14;
+  --color-ae-gold:        #D4A017;
+  --color-ae-gold-light:  #EAB82A;
+  --color-ae-teal:        #006E7F;
+  --color-ae-teal-light:  #008899;
   --color-ae-sand:        #E8D8B0;
   --color-ae-dune:        #C8A020;
   --color-ae-green:       #1A5C28;
   --color-ae-cream:       #F5EDD8;
+  /* Light section palette */
+  --color-ae-page:        #F5F3EE;
+  --color-ae-stone:       #ECE9E2;
+  --color-ae-ink:         #1A1C1A;
+  --color-ae-muted:       #5A5D56;
   --font-serif: var(--font-playfair);
   --font-sans:  var(--font-inter);
 }
@@ -20,8 +25,8 @@
 html { scroll-behavior: smooth; }
 
 body {
-  background-color: #08090A;
-  color: #E8D8B0;
+  background-color: #F5F3EE;
+  color: #1A1C1A;
   font-family: var(--font-inter), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -38,5 +43,5 @@ body {
 }
 
 ::-webkit-scrollbar { width: 5px; }
-::-webkit-scrollbar-track { background: #08090A; }
-::-webkit-scrollbar-thumb { background: #C8A415; border-radius: 3px; }
+::-webkit-scrollbar-track { background: #F5F3EE; }
+::-webkit-scrollbar-thumb { background: #006E7F; border-radius: 3px; }

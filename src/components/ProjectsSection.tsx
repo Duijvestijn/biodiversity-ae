@@ -8,7 +8,15 @@ import { PROJECT_IMAGES } from "@/lib/images";
 
 const FU = (d = 0) => ({
   hidden: { opacity: 0, y: 22 },
-  visible: { opacity: 1, y: 0, transition: { delay: d, duration: 0.65, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] } },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: d,
+      duration: 0.65,
+      ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
+    },
+  },
 });
 
 export default function ProjectsSection() {
@@ -25,47 +33,67 @@ export default function ProjectsSection() {
   ];
 
   return (
-    <section id="projects" className="bg-ae-night py-24 md:py-32">
+    <section id="projects" className="bg-ae-page py-24 md:py-32">
       <div ref={ref} className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-14">
           <motion.div variants={FU(0)} initial="hidden" animate={inView ? "visible" : "hidden"}>
             <div className="inline-flex items-center gap-2 mb-4">
-              <span className="w-6 h-px bg-ae-gold/50" />
-              <span className="text-xs tracking-[0.25em] uppercase text-ae-gold/80 font-medium">{t.label}</span>
-              <span className="w-6 h-px bg-ae-gold/50" />
+              <span className="w-6 h-px bg-ae-teal" />
+              <span className="text-xs tracking-[0.25em] uppercase text-ae-teal font-semibold">
+                {t.label}
+              </span>
+              <span className="w-6 h-px bg-ae-teal" />
             </div>
           </motion.div>
-          <motion.h2 variants={FU(0.08)} initial="hidden" animate={inView ? "visible" : "hidden"}
-            className="font-serif text-4xl md:text-5xl font-bold text-white mb-4">
+          <motion.h2
+            variants={FU(0.08)}
+            initial="hidden"
+            animate={inView ? "visible" : "hidden"}
+            className="font-serif text-5xl md:text-6xl font-bold text-ae-ink mb-4"
+          >
             {t.title}
           </motion.h2>
-          <motion.p variants={FU(0.14)} initial="hidden" animate={inView ? "visible" : "hidden"}
-            className="text-ae-sand/55 leading-relaxed">
+          <motion.p
+            variants={FU(0.14)}
+            initial="hidden"
+            animate={inView ? "visible" : "hidden"}
+            className="text-ae-muted leading-relaxed"
+          >
             {t.subtitle}
           </motion.p>
         </div>
 
         {/* Project grid */}
-        <div className="grid sm:grid-cols-2 gap-5">
+        <div className="grid sm:grid-cols-2 gap-6">
           {projects.map((p, i) => (
-            <motion.div key={i} variants={FU(i * 0.1)} initial="hidden" animate={inView ? "visible" : "hidden"}
-              className="group rounded-3xl overflow-hidden bg-ae-dark border border-white/[0.05] hover:border-ae-gold/25 transition-all">
-              {/* Image */}
-              <div className="relative h-48 overflow-hidden">
-                <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                  style={{ backgroundImage: `url(${PROJECT_IMAGES[i]})` }} />
-                <div className="absolute inset-0 bg-gradient-to-t from-ae-dark via-ae-dark/30 to-transparent" />
-                <div className="absolute top-4 left-4">
-                  <span className="px-3 py-1 rounded-full bg-ae-gold/90 text-ae-dark text-[10px] font-bold tracking-wide uppercase">
+            <motion.div
+              key={i}
+              variants={FU(i * 0.1)}
+              initial="hidden"
+              animate={inView ? "visible" : "hidden"}
+              className="group rounded-2xl overflow-hidden bg-white shadow-sm border border-black/[0.06] hover:shadow-lg transition-all"
+            >
+              {/* Image — h-72 */}
+              <div className="relative h-72 overflow-hidden">
+                <div
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                  style={{ backgroundImage: `url(${PROJECT_IMAGES[i]})` }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+                {/* Tag — RTL-safe using start/end */}
+                <div className="absolute top-4 start-4">
+                  <span className="px-3 py-1 rounded-full bg-ae-teal text-white text-[10px] font-bold tracking-wide uppercase">
                     {p.tag}
                   </span>
                 </div>
               </div>
               {/* Content */}
               <div className="p-6">
-                <h3 className="font-serif text-xl font-bold text-white mb-3 group-hover:text-ae-gold transition-colors">{p.title}</h3>
-                <p className="text-ae-sand/50 text-sm leading-relaxed">{p.desc}</p>
+                <h3 className="font-serif text-xl font-bold text-ae-ink mb-3 group-hover:text-ae-teal transition-colors">
+                  {p.title}
+                </h3>
+                <p className="text-ae-muted text-sm leading-relaxed">{p.desc}</p>
               </div>
             </motion.div>
           ))}

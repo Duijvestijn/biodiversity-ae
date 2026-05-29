@@ -44,7 +44,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
         scrolled
           ? "bg-ae-dark/95 backdrop-blur-md border-b border-white/[0.06] py-3"
           : "bg-transparent py-5"
@@ -54,7 +54,9 @@ export default function Header() {
         {/* Logo */}
         <a href={`/${lang}`} className="flex-shrink-0 group">
           <span className="font-serif font-bold text-[17px] leading-none tracking-tight">
-            <span className="text-ae-gold group-hover:text-ae-gold-light transition-colors">{t.logo}</span>
+            <span className="text-ae-gold group-hover:text-ae-gold-light transition-colors">
+              {t.logo}
+            </span>
           </span>
         </a>
 
@@ -64,7 +66,7 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="px-3 py-1.5 text-xs text-ae-sand/60 hover:text-ae-sand font-medium tracking-wide transition-colors uppercase"
+              className="px-3 py-1.5 text-xs text-white/70 hover:text-white font-medium tracking-wide transition-colors uppercase"
             >
               {link.label}
             </a>
@@ -75,7 +77,7 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <button
             onClick={() => switchLang(otherLang)}
-            className="px-3 py-1 rounded-full text-[10px] font-bold tracking-widest transition-all duration-200 bg-white/[0.04] border border-white/[0.08] text-ae-sand/60 hover:text-ae-sand hover:bg-white/[0.08]"
+            className="px-3 py-1 rounded-full text-[10px] font-bold tracking-widest transition-all duration-200 bg-white/[0.08] border border-white/[0.12] text-white/70 hover:text-white hover:bg-white/[0.15]"
           >
             {t.lang}
           </button>
@@ -92,8 +94,12 @@ export default function Header() {
             className="lg:hidden w-8 h-8 flex flex-col items-center justify-center gap-1.5"
             aria-label="Toggle menu"
           >
-            <span className={`block h-px w-5 bg-ae-sand transition-all ${mobileOpen ? "rotate-45 translate-y-[3px]" : ""}`} />
-            <span className={`block h-px w-5 bg-ae-sand transition-all ${mobileOpen ? "-rotate-45 -translate-y-[3px]" : ""}`} />
+            <span
+              className={`block h-px w-5 bg-white transition-all ${mobileOpen ? "rotate-45 translate-y-[3px]" : ""}`}
+            />
+            <span
+              className={`block h-px w-5 bg-white transition-all ${mobileOpen ? "-rotate-45 -translate-y-[3px]" : ""}`}
+            />
           </button>
         </div>
       </div>
@@ -114,7 +120,7 @@ export default function Header() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className="py-3 text-ae-sand/70 hover:text-ae-sand font-medium border-b border-white/[0.05] last:border-0 transition-colors text-sm"
+                  className="py-3 text-white/70 hover:text-white font-medium border-b border-white/[0.05] last:border-0 transition-colors text-sm"
                 >
                   {link.label}
                 </a>
