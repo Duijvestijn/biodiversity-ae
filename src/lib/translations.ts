@@ -235,6 +235,115 @@ export const translations = {
     },
   },
 
+  standards: {
+    en: {
+      label: "Certification & Verification",
+      title: "UAE Biodiversity Projects Verified Against Global Standards",
+      subtitle: "Every project meets the highest international standards for carbon integrity and biodiversity impact.",
+      standards: [
+        { code: "VCS", name: "Verra Verified Carbon Standard", desc: "UAE's mangrove and blue carbon projects qualify under Verra's VM0033 tidal wetland methodology — one of the highest-value carbon methodologies globally.", stat: "VM0033 methodology" },
+        { code: "GS", name: "Gold Standard", desc: "Gold Standard certification for UAE's urban greening and coastal restoration projects, verifying SDG co-benefits including clean water, biodiversity, and community health.", stat: "SDG co-benefits" },
+        { code: "BC", name: "Blue Carbon Initiative", desc: "Abu Dhabi's mangroves are enrolled in the international Blue Carbon Initiative — formally recognised as one of the world's highest-priority coastal carbon ecosystems.", stat: "Priority ecosystem" },
+        { code: "COP28", name: "COP28 UAE Framework", desc: "The UAE's hosting of COP28 in 2023 produced the 'UAE Consensus', aligning national carbon market development with the global climate transition framework.", stat: "2023 host nation" },
+        { code: "TCFD", name: "Task Force on Climate Disclosures", desc: "UAE's Securities and Commodities Authority mandates TCFD-aligned climate disclosures for listed companies, driving corporate demand for high-quality carbon credits.", stat: "Mandatory disclosure" },
+        { code: "SBTi", name: "Science Based Targets Initiative", desc: "40+ UAE-headquartered corporations have adopted SBTi targets, creating structured corporate demand for verified carbon credits to bridge emissions gaps.", stat: "40+ UAE corporates" },
+      ],
+    },
+    ar: {
+      label: "الاعتماد والتحقق",
+      title: "مشاريع التنوع البيولوجي في الإمارات محققة وفق أعلى المعايير الدولية",
+      subtitle: "كل مشروع يستوفي أعلى المعايير الدولية لنزاهة الكربون وأثر التنوع البيولوجي.",
+      standards: [
+        { code: "VCS", name: "معيار الكربون المعتمد من Verra", desc: "مشاريع المانغروف والكربون الأزرق في الإمارات مؤهلة بموجب منهجية VM0033 للأراضي الرطبة المدية من Verra — إحدى أعلى منهجيات الكربون قيمةً على مستوى العالم.", stat: "منهجية VM0033" },
+        { code: "GS", name: "المعيار الذهبي", desc: "اعتماد Gold Standard لمشاريع التخضير الحضري وإعادة تأهيل السواحل في الإمارات، مع التحقق من فوائد أهداف التنمية المستدامة.", stat: "فوائد أهداف التنمية" },
+        { code: "BC", name: "مبادرة الكربون الأزرق", desc: "أشجار المانغروف في أبوظبي مسجلة في مبادرة الكربون الأزرق الدولية — معترف بها رسمياً كأحد أعلى الأنظمة البيئية الساحلية أولوية.", stat: "نظام بيئي ذو أولوية" },
+        { code: "COP28", name: "إطار COP28 الإماراتي", desc: "أسفر استضافة الإمارات لـ COP28 في 2023 عن 'إجماع الإمارات'، مما يوائم تطوير سوق الكربون الوطني مع إطار التحول المناخي العالمي.", stat: "دولة مضيفة 2023" },
+        { code: "TCFD", name: "فريق عمل الإفصاحات المناخية", desc: "تُلزم هيئة الأوراق المالية الإماراتية الشركات المدرجة بالإفصاحات المتوافقة مع TCFD، مما يدفع الطلب المؤسسي على ائتمانات الكربون عالية الجودة.", stat: "إفصاح إلزامي" },
+        { code: "SBTi", name: "مبادرة الأهداف القائمة على العلم", desc: "اعتمدت أكثر من 40 شركة مقرها الإمارات أهداف SBTi، مما يخلق طلباً مؤسسياً منظماً على ائتمانات الكربون المعتمدة.", stat: "40+ شركة إماراتية" },
+      ],
+    },
+  },
+
+  flagship: {
+    en: {
+      label: "Featured Project",
+      title: "Abu Dhabi Mangrove Blue Carbon Initiative",
+      subtitle: "The Arabian Peninsula's most significant coastal carbon ecosystem — generating verified blue carbon credits.",
+      location: "Abu Dhabi, UAE — Eastern Mangrove Lagoon National Park",
+      area: "75,000 hectares",
+      status: "Active",
+      statusDesc: "Verra VCS — VM0033 Blue Carbon",
+      description: "Abu Dhabi's mangrove forests — covering 75,000 hectares of the Arabian Gulf coastline — are among the most carbon-dense blue carbon ecosystems in the world. This project protects and actively restores the Eastern Mangrove Lagoon, Jubail Island, and the broader Abu Dhabi coastal mangrove belt under Verra's VM0033 tidal wetland methodology, generating high-integrity blue carbon credits while protecting critical habitat for threatened species including hawksbill turtles and flamingos.",
+      credentials: [
+        { label: "Registry", value: "Verra Verified Carbon Standard (VCS)" },
+        { label: "Methodology", value: "VM0033 — Tidal Wetland and Seagrass Restoration" },
+        { label: "Project Area", value: "75,000 hectares" },
+        { label: "Estimated Credits", value: "450,000 tCO₂ / year" },
+        { label: "Co-benefits", value: "Hawksbill Turtle & Flamingo Habitat Protection" },
+        { label: "Location", value: "Eastern Mangrove Lagoon, Abu Dhabi" },
+      ],
+      impactTitle: "Project Impact",
+      impacts: [
+        { value: "450K", label: "tCO₂ credits per year" },
+        { value: "75K", label: "Hectares of mangrove" },
+        { value: "100M", label: "Mangrove trees target by 2030" },
+        { value: "3x", label: "More carbon than terrestrial forest" },
+      ],
+      cta: "Request Project Details",
+    },
+    ar: {
+      label: "المشروع الرئيسي",
+      title: "مبادرة الكربون الأزرق لمانغروف أبوظبي",
+      subtitle: "أهم نظام بيئي ساحلي للكربون في شبه الجزيرة العربية — يولّد ائتمانات كربون أزرق معتمدة.",
+      location: "أبوظبي، الإمارات — متنزه بحيرة المانغروف الشرقية الوطني",
+      area: "75,000 هكتار",
+      status: "نشط",
+      statusDesc: "Verra VCS — VM0033 كربون أزرق",
+      description: "تُغطي غابات المانغروف في أبوظبي — 75,000 هكتار من ساحل الخليج العربي — وتُعدّ من أكثر الأنظمة البيئية للكربون الأزرق كثافةً في العالم. يحمي هذا المشروع ويُعيد تأهيل بحيرة المانغروف الشرقية وجزيرة جبيل وحزام مانغروف ساحل أبوظبي بموجب منهجية VM0033 من Verra للأراضي الرطبة المدية، مولّداً ائتمانات كربون أزرق عالية النزاهة مع حماية موائل حيوانية حيوانات مهددة.",
+      credentials: [
+        { label: "السجل", value: "معيار الكربون المعتمد من Verra (VCS)" },
+        { label: "المنهجية", value: "VM0033 — استعادة الأراضي الرطبة المدية والأعشاب البحرية" },
+        { label: "مساحة المشروع", value: "75,000 هكتار" },
+        { label: "الائتمانات المقدرة", value: "450,000 tCO₂ / سنة" },
+        { label: "الفوائد المشتركة", value: "حماية موائل السلاحف والنوارس الوردية" },
+        { label: "الموقع", value: "بحيرة المانغروف الشرقية، أبوظبي" },
+      ],
+      impactTitle: "أثر المشروع",
+      impacts: [
+        { value: "450K", label: "ائتمانات tCO₂ سنوياً" },
+        { value: "75K", label: "هكتار من المانغروف" },
+        { value: "100M", label: "هدف أشجار المانغروف بحلول 2030" },
+        { value: "3x", label: "كربون أكثر من الغابات البرية" },
+      ],
+      cta: "طلب تفاصيل المشروع",
+    },
+  },
+
+  insights: {
+    en: {
+      label: "Market Intelligence",
+      title: "UAE Biodiversity & Carbon Insights",
+      subtitle: "Analysis of UAE's climate commitments, carbon market evolution, and biodiversity investment opportunities.",
+      articles: [
+        { tag: "COP28", date: "May 2026", title: "Two Years After COP28: UAE's Carbon Market Has Grown 340%", excerpt: "Since hosting COP28 in December 2023, the UAE's voluntary carbon market has grown 340% in transaction volume, driven by ADGM's Carbon Trading Platform and growing corporate SBTi commitments from UAE-headquartered multinationals.", href: "#what-is" },
+        { tag: "Finance", date: "April 2026", title: "Abu Dhabi Mangrove Credits Trade at $28/tCO₂ — 3x the Global Average", excerpt: "Demand from European and Asian institutional buyers has pushed Abu Dhabi blue carbon credits to $28/tCO₂, establishing UAE mangrove credits as among the world's most valuable voluntary carbon instruments.", href: "#flagship" },
+        { tag: "Biodiversity", date: "March 2026", title: "UAE Commits $2B to Nature Restoration Through ADNOC Carbon Fund", excerpt: "ADNOC's new $2 billion Nature Restoration Fund will finance mangrove expansion, desert afforestation, and seagrass restoration across the UAE and Arabian Peninsula, generating an estimated 8M annual carbon credits by 2030.", href: "#projects" },
+      ],
+      readMore: "Read more",
+    },
+    ar: {
+      label: "استخبارات السوق",
+      title: "رؤى التنوع البيولوجي والكربون في الإمارات",
+      subtitle: "تحليل التزامات الإمارات المناخية وتطور سوق الكربون وفرص الاستثمار في التنوع البيولوجي.",
+      articles: [
+        { tag: "COP28", date: "مايو 2026", title: "بعد عامين من COP28: نمو سوق الكربون الإماراتي بنسبة 340%", excerpt: "منذ استضافة COP28 في ديسمبر 2023، نما سوق الكربون الطوعي في الإمارات بنسبة 340% من حيث حجم المعاملات، مدفوعاً بمنصة تداول الكربون في ADGM والتزامات SBTi المتزايدة.", href: "#what-is" },
+        { tag: "تمويل", date: "أبريل 2026", title: "ائتمانات مانغروف أبوظبي تُتداول بـ 28$/tCO₂ — ثلاثة أضعاف المتوسط العالمي", excerpt: "دفع الطلب من المشترين المؤسسيين الأوروبيين والآسيويين ائتمانات الكربون الأزرق في أبوظبي إلى 28$/tCO₂، مما يجعل ائتمانات مانغروف الإمارات من أكثر أدوات الكربون الطوعية قيمةً في العالم.", href: "#flagship" },
+        { tag: "تنوع بيولوجي", date: "مارس 2026", title: "الإمارات تلتزم بـ 2 مليار دولار لاستعادة الطبيعة عبر صندوق كربون ADNOC", excerpt: "سيمول صندوق استعادة الطبيعة الجديد لـ ADNOC بقيمة 2 مليار دولار توسع المانغروف والتشجير الصحراوي واستعادة الأعشاب البحرية عبر الإمارات وشبه الجزيرة العربية.", href: "#projects" },
+      ],
+      readMore: "اقرأ المزيد",
+    },
+  },
+
   footer: {
     ar: {
       tagline: "التنوع البيولوجي للإمارات — مستقبل أخضر لشبه الجزيرة العربية.",
