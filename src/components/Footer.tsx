@@ -33,6 +33,7 @@ export default function Footer() {
                 { label: nav.credits, href: "#what-is" },
                 { label: nav.why, href: "#why-uae" },
                 { label: nav.projects, href: "#projects" },
+                { label: nav.insights, href: `/${lang}/insights` },
                 { label: nav.contact, href: "#contact" },
               ].map(({ label, href }) => (
                 <li key={href}>
@@ -74,11 +75,18 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/[0.06] pt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-          <p className="text-white/30 text-xs">{t.copyright}</p>
-          <span className="text-white/20 text-xs">
-            {lang === "ar" ? "مدعوم بالطبيعة" : "Powered by nature"}
-          </span>
+        <div className="border-t border-white/[0.06] pt-6">
+          <p className="text-white/30 text-xs leading-relaxed mb-4 max-w-2xl">
+            {lang === "ar"
+              ? "هذه المنصة لأغراض إعلامية فقط. تنطوي أسواق الكربون على مخاطر. استشر مستشارين ماليين وقانونيين مستقلين قبل اتخاذ قرارات استثمارية."
+              : "This platform is for informational purposes only. Carbon markets involve risks. Consult independent financial and legal advisors before making investment decisions."}
+          </p>
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+            <p className="text-white/30 text-xs">{t.copyright}</p>
+            <span className="text-white/20 text-xs">
+              {lang === "ar" ? "مدعوم بالطبيعة" : "Powered by nature"}
+            </span>
+          </div>
         </div>
       </div>
     </footer>
