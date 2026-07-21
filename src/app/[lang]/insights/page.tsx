@@ -139,6 +139,30 @@ export default async function InsightsIndexPage({ params }: { params: Promise<{ 
           </div>
         </div>
       </main>
+
+      {/* Newsletter CTA */}
+      <div className="bg-ae-dark py-16" dir={l === "ar" ? "rtl" : "ltr"}>
+        <div className="max-w-2xl mx-auto px-6 text-center">
+          <span className="text-xs tracking-[0.3em] uppercase text-ae-gold/70 font-bold block mb-3">
+            {l === "ar" ? "ابقَ على اطلاع" : "Stay informed"}
+          </span>
+          <h2 className="font-serif text-3xl font-bold text-white mb-4">
+            {l === "ar" ? "احصل على مقالات جديدة في بريدك" : "Get new articles in your inbox"}
+          </h2>
+          <p className="text-white/50 mb-8 leading-relaxed text-sm">
+            {l === "ar"
+              ? "انضم إلى ~2000 قارئ يتابعون تطورات سوق الكربون."
+              : "Join ~2,000 readers tracking carbon market developments."}
+          </p>
+          <a
+            href={`/${l}#contact`}
+            className="inline-flex items-center gap-2 px-6 py-3 bg-ae-gold hover:opacity-90 text-white font-bold rounded-full transition-opacity text-sm tracking-wide"
+          >
+            {l === "ar" ? "اشترك عبر نموذج التواصل" : "Subscribe via contact form"}
+          </a>
+        </div>
+      </div>
+
       <Footer />
     </>
   );
