@@ -1,7 +1,6 @@
 "use client";
 
-import { useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import { useLang } from "@/lib/LangContext";
 import { translations } from "@/lib/translations";
 import { IMAGES } from "@/lib/images";
@@ -22,24 +21,14 @@ const FADE_UP = {
 export default function HeroSection() {
   const { lang } = useLang();
   const t = translations.hero[lang];
-  const containerRef = useRef<HTMLDivElement>(null);
-
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start start", "end start"],
-  });
-  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "15%"]);
-  const opacity = useTransform(scrollYProgress, [0, 0.6], [1, 0]);
 
   return (
     <section
-      ref={containerRef}
       id="hero"
       className="relative min-h-screen flex flex-col items-start justify-center overflow-hidden"
     >
       {/* Background */}
-      <motion.div style={{ y: bgY }} className="absolute inset-0 scale-110">
+      <div className="absolute inset-0 scale-110">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${IMAGES.hero})` }}
@@ -47,11 +36,10 @@ export default function HeroSection() {
         {/* Gradient: start (text side) to transparent — respects RTL via logical direction */}
         <div className="absolute inset-0 bg-gradient-to-b from-ae-dark/80 via-ae-dark/50 to-ae-dark/90" />
         <div className="absolute inset-0 [background:linear-gradient(to_right,rgba(14,20,16,0.85)_0%,rgba(14,20,16,0.3)_60%,transparent_100%)] rtl:[background:linear-gradient(to_left,rgba(14,20,16,0.85)_0%,rgba(14,20,16,0.3)_60%,transparent_100%)]" />
-      </motion.div>
+      </div>
 
       {/* Content */}
-      <motion.div
-        style={{ y: textY, opacity }}
+      <div
         className="relative z-10 px-6 max-w-5xl mx-auto w-full pt-28 pb-20 text-start"
       >
         {/* Label */}
@@ -72,7 +60,7 @@ export default function HeroSection() {
         <motion.h1
           custom={1}
           variants={FADE_UP}
-          initial="hidden"
+          initial={{ opacity: 1, y: 0 }}
           animate="visible"
           className="font-serif text-6xl sm:text-7xl md:text-8xl font-bold leading-[1.0] text-white mb-4"
         >
@@ -137,7 +125,7 @@ export default function HeroSection() {
             className="w-px h-8 bg-gradient-to-b from-ae-gold/40 to-transparent"
           />
         </motion.div>
-      </motion.div>
+      </div>
     </section>
   );
 }

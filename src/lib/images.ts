@@ -11,16 +11,16 @@ export const IMAGES = {
   hero: `${HF}/hf_20260528_230747_d308d52a-aa93-4658-bc29-57a41f02aea5.png`,
 
   /** Mangroves */
-  mangroves: `${UNS}/photo-1559827291-72f590e49386?auto=format&fit=crop&w=2400&q=85`,
+  mangroves: `${UNS}/photo-1559827291-72f590e49386?auto=format&fit=crop&w=1600&q=75&fm=webp`,
 
   /** Trees / desert afforestation */
-  afforestation: `${UNS}/photo-1530521954074-e64f6810b32d?auto=format&fit=crop&w=2400&q=85`,
+  afforestation: `${UNS}/photo-1530521954074-e64f6810b32d?auto=format&fit=crop&w=1600&q=75&fm=webp`,
 
   /** Nature reserve */
-  nature: `${UNS}/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=2400&q=85`,
+  nature: `${UNS}/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1600&q=75&fm=webp`,
 
   /** Agriculture / AgriCarbon */
-  agri: `${UNS}/photo-1448375240586-882707db888b?auto=format&fit=crop&w=2400&q=85`,
+  agri: `${UNS}/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=75&fm=webp`,
 } as const;
 
 export type ImageKey = keyof typeof IMAGES;

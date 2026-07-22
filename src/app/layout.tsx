@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { playfair, inter } from "@/lib/fonts";
+import { playfair, inter, notoArabic } from "@/lib/fonts";
 import "./globals.css";
 import LenisProvider from "@/lib/LenisProvider";
 import Script from "next/script";
@@ -50,8 +50,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ar" className={`${playfair.variable} ${inter.variable}`} suppressHydrationWarning>
+    <html lang="ar" className={`${playfair.variable} ${inter.variable} ${notoArabic.variable}`} suppressHydrationWarning>
       <head>
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://js.hs-scripts.com" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd).replace(/</g, "\\u003c") }}

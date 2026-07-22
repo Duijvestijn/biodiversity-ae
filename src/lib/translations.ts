@@ -377,6 +377,31 @@ export const translations = {
     },
   },
 
+  faq: {
+    en: {
+      label: "Common Questions",
+      title: "UAE Biodiversity & Carbon Credits",
+      items: [
+        { q: "What is the UAE's role in global carbon markets after COP28?", a: "By hosting COP28 in December 2023 and committing to the UAE Consensus, the UAE positioned itself as the Arab world's carbon market hub. The Abu Dhabi Global Market (ADGM) Carbon Trading Platform and UAE Central Bank's ESG framework have driven 340% growth in voluntary carbon transaction volume since COP28." },
+        { q: "What makes UAE mangrove carbon credits so valuable?", a: "Abu Dhabi's mangroves sequester 3–5x more carbon per hectare than terrestrial forests due to deep anaerobic soil carbon accumulation. Combined with the UAE's government credibility, ICVCM Core Carbon Principles eligibility, and measurable biodiversity co-benefits (hawksbill turtles, flamingo colonies, seagrass meadows), UAE blue carbon credits command $25–30/tCO₂ — among the world's highest voluntary carbon prices." },
+        { q: "Who can purchase UAE biodiversity credits?", a: "UAE and international corporations with TCFD mandatory disclosure requirements, Science-Based Targets (SBTi) commitments, or voluntary net-zero pledges are the primary buyers. UAE-headquartered multinationals in oil & gas, aviation, finance, and real estate are the most active purchasers of local nature-based credits." },
+        { q: "What is the ADNOC $2 billion Nature Restoration Fund?", a: "ADNOC's Nature Restoration Fund finances mangrove expansion across Abu Dhabi's 300km coastline, desert afforestation in Al Ain and Al Dhafra, and seagrass restoration in the Arabian Gulf. The fund is projected to generate 8 million annual verified carbon credits by 2030, making ADNOC one of the world's largest nature-based carbon credit suppliers." },
+        { q: "How does Green Earth Group operate in the UAE?", a: "Green Earth Group structures and manages high-integrity biodiversity and carbon projects in the UAE under Verra VCS methodology VM0033. We work with ADGM-registered carbon brokers, UAE corporate sustainability teams, and international institutional buyers to connect verified credits with willing buyers." },
+      ],
+    },
+    ar: {
+      label: "أسئلة شائعة",
+      title: "التنوع البيولوجي وائتمانات الكربون في الإمارات",
+      items: [
+        { q: "ما دور الإمارات في أسواق الكربون العالمية بعد COP28؟", a: "باستضافة COP28 في ديسمبر 2023 والالتزام بتوافق الإمارات، وضعت الإمارات نفسها مركزاً لسوق الكربون في العالم العربي. دفعت منصة تداول الكربون في ADGM وإطار الاستدامة في المصرف المركزي إلى نمو بنسبة 340% في حجم معاملات الكربون الطوعي منذ COP28." },
+        { q: "ما الذي يجعل ائتمانات كربون المانغروف الإماراتية ذات قيمة عالية جداً؟", a: "تعزل مانغروف أبوظبي 3 إلى 5 أضعاف كمية الكربون مقارنة بالغابات البرية لكل هكتار، بسبب تراكم الكربون في التربة اللاهوائية العميقة. مع أهلية مبادئ الكربون الأساسية ICVCM والمزايا المشتركة للتنوع البيولوجي، تصل أسعار الكربون الأزرق الإماراتي إلى 25-30 دولاراً لكل طن." },
+        { q: "من يمكنه شراء ائتمانات التنوع البيولوجي في الإمارات؟", a: "الشركات الإماراتية والدولية الملتزمة بالإفصاح الإلزامي وفق TCFD، أو الأهداف العلمية SBTi، أو التعهدات بصفر انبعاثات هي المشترون الرئيسيون. الشركات متعددة الجنسيات المقرة في الإمارات في قطاعات النفط والغاز والطيران والمال هي الأكثر نشاطاً." },
+        { q: "ما صندوق استعادة الطبيعة البالغ 2 مليار دولار من ADNOC؟", a: "يموّل صندوق استعادة الطبيعة التابع لأدنوك توسع المانغروف على امتداد 300 كيلومتر من سواحل أبوظبي، والتشجير الصحراوي، واستعادة الأعشاب البحرية في الخليج العربي. يُتوقع أن ينتج الصندوق 8 ملايين ائتمان كربون سنوي موثق بحلول 2030." },
+        { q: "كيف تعمل Green Earth Group في الإمارات؟", a: "تهيكل Green Earth Group وتدير مشاريع التنوع البيولوجي والكربون عالية النزاهة في الإمارات وفق منهجية Verra VCS VM0033، وتعمل مع وسطاء كربون مسجلين في ADGM وفرق الاستدامة المؤسسية والمشترين المؤسسيين الدوليين." },
+      ],
+    },
+  },
+
   about: {
     en: {
       label: "Our Approach",

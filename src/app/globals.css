@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;600;700&display=swap');
 
 @theme inline {
   /* UAE Biodiversity palette */
@@ -34,7 +33,7 @@ body {
 }
 
 [dir="rtl"] {
-  font-family: 'Noto Sans Arabic', sans-serif;
+  font-family: var(--font-noto-arabic), sans-serif;
 }
 
 ::selection {

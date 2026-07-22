@@ -4,12 +4,16 @@ import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import ImpactStatsBar from "@/components/ImpactStatsBar";
 import WhatIsSection from "@/components/WhatIsSection";
+import HowItWorksSection from "@/components/HowItWorksSection";
 import WhyUAESection from "@/components/WhyUAESection";
+import OpportunitySection from "@/components/OpportunitySection";
 import StandardsSection from "@/components/StandardsSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import FlagshipProjectSection from "@/components/FlagshipProjectSection";
 import InsightsSection from "@/components/InsightsSection";
+import FAQSection from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
+import { translations } from "@/lib/translations";
 
 const SUPPORTED = ["ar", "en"];
 
@@ -17,18 +21,36 @@ export default async function LangPage({ params }: { params: Promise<{ lang: str
   const { lang } = await params;
   if (!SUPPORTED.includes(lang)) notFound();
 
+  const faqData = translations.faq[lang as "ar" | "en"];
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqData.items.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <Header />
       <main>
         <HeroSection />
         <ImpactStatsBar />
         <WhatIsSection />
+        <HowItWorksSection />
         <WhyUAESection />
+        <OpportunitySection />
         <StandardsSection />
         <ProjectsSection />
         <FlagshipProjectSection />
         <InsightsSection />
+        <FAQSection />
         <ContactSection />
       </main>
       <Footer />
