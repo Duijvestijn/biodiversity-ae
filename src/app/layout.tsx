@@ -72,6 +72,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-MDF4N4PW');`}
       </Script>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-DGPMJN79JY"
+        strategy="afterInteractive"
+      />
+      <Script id="ga4-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-DGPMJN79JY');
+        `}
+      </Script>
       <body className="bg-ae-dark text-ae-sand antialiased overflow-x-hidden font-sans">
         <noscript>
           <iframe
