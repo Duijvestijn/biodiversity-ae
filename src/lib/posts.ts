@@ -124,6 +124,116 @@ export const posts: Post[] = [
       },
     },
   },
+  {
+    slug: "uae-article-6-sectors-confirmed",
+    date: "2026-07-17",
+    lang: {
+      en: {
+        title: "UAE Confirms Article 6.4 Eligible Sectors: Mangroves, Solar, Blue Carbon All on the Table",
+        excerpt: "The UAE published its Host Party Participation Requirements for Article 6.4 with the UNFCCC in July 2026, formally listing eligible project sectors — positioning itself as both a buyer and seller of international carbon credits.",
+        content: `<p>The United Arab Emirates took a concrete step toward becoming an active participant in the Article 6.4 carbon mechanism in July 2026, publishing its <strong>Host Party Participation Requirements</strong> with the UNFCCC. The document formally lists the sectors the UAE will consider for projects under the UN-supervised international carbon market — and the list is broad.</p>
+
+<h2>What's Eligible</h2>
+<p>The UAE's Article 6.4 eligible sectors include:</p>
+<ul>
+<li><strong>Renewable energy</strong>: utility-scale solar, distributed solar, wind, waste-to-energy, and other technologies</li>
+<li><strong>Energy efficiency</strong>: industrial facilities, buildings, district cooling systems, transport, and public infrastructure</li>
+<li><strong>Nature-based solutions and carbon removals</strong>: mangrove restoration, afforestation, ecosystem restoration, blue carbon initiatives, and "other eligible removals consistent with Article 6.4 methodologies and national policies"</li>
+</ul>
+
+<p>The explicit inclusion of mangrove restoration and blue carbon is significant. Abu Dhabi's mangrove ecosystem — including the Jubail Mangrove Park, one of the world's largest urban mangrove forests — is already generating both carbon and biodiversity co-benefits. The Host Party document formally positions these assets as eligible for international credit transfer, not just domestic accounting.</p>
+
+<h2>Buyer and Seller</h2>
+<p>Importantly, the UAE is positioning itself as <strong>both a buyer and a seller</strong> under Article 6.4. It has already signed a Memorandum of Understanding with Paraguay at COP28 (late 2023) and joined Japan's Joint Crediting Mechanism in April 2024 — two moves consistent with a country that intends to purchase internationally transferred mitigation outcomes from other jurisdictions while also exporting its own.</p>
+
+<p>For UAE-based nature projects, the implications are significant: credits from Abu Dhabi's mangrove restoration corridors, and from blue carbon projects along the Gulf coastline, now have a formal international transfer pathway — not just a voluntary market label.</p>
+
+<h2>ADGM as the Regulatory Anchor</h2>
+<p>The Abu Dhabi Global Market (ADGM) regulatory sandbox for nature-based solutions and carbon markets provides the financial services infrastructure through which Article 6.4 credits can be structured, traded, and custodied under a credible legal framework. The combination of UAE's UNFCCC Host Party document and ADGM's regulatory architecture makes the Emirates one of the few countries in the world that has simultaneously built both the upstream (project eligibility) and downstream (financial services) infrastructure for Article 6.</p>
+
+<p>Related: <a href="/en/blog/biodiversity-carbon-credits-convergence">Biodiversity Credits and Carbon Credits: How the UAE Is Bridging the Gap</a> | <a href="/en/blog/abu-dhabi-mangroves">Abu Dhabi Mangroves: A Carbon and Biodiversity Powerhouse</a></p>`,
+      },
+      ar: {
+        title: "الإمارات تؤكد القطاعات المؤهلة للمادة 6.4: المانغروف والطاقة الشمسية والكربون الأزرق على الطاولة",
+        excerpt: "نشرت الإمارات متطلبات مشاركة الدولة المضيفة للمادة 6.4 لدى اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ في يوليو 2026، مدرجةً القطاعات المشروعة رسمياً — لتضع نفسها مشترياً وبائعاً للاعتمادات الكربونية الدولية في آنٍ واحد.",
+        content: `<p>اتخذت الإمارات العربية المتحدة خطوة ملموسة نحو المشاركة الفاعلة في آلية الكربون المنصوص عليها في المادة 6.4 في يوليو 2026، إذ نشرت <strong>متطلبات مشاركة الطرف المضيف</strong> لدى اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ (UNFCCC). تُدرج الوثيقة رسمياً القطاعات التي ستأخذها الإمارات بعين الاعتبار للمشاريع في إطار آلية الكربون الدولية التي تشرف عليها الأمم المتحدة — وهي قائمة واسعة النطاق.</p>
+
+<h2>القطاعات المؤهلة</h2>
+<p>تشمل القطاعات المؤهلة بموجب المادة 6.4 في الإمارات:</p>
+<ul>
+<li><strong>الطاقة المتجددة</strong>: الطاقة الشمسية على نطاق واسع، والطاقة الشمسية الموزعة، وطاقة الرياح، والطاقة من النفايات، وغيرها من التقنيات</li>
+<li><strong>كفاءة الطاقة</strong>: المنشآت الصناعية، والمباني، وأنظمة التبريد المركزي، والنقل، والبنية التحتية العامة</li>
+<li><strong>الحلول القائمة على الطبيعة وإزالة الكربون</strong>: استعادة أشجار المانغروف، والتحريج، واستعادة النظم البيئية، ومبادرات الكربون الأزرق، و"إزالات مؤهلة أخرى متوافقة مع منهجيات المادة 6.4 والسياسات الوطنية"</li>
+</ul>
+
+<p>الإدراج الصريح لاستعادة أشجار المانغروف والكربون الأزرق ذو دلالة بالغة. يُنتج النظام البيئي للمانغروف في أبوظبي — بما فيه حديقة مانغروف الجبيل، إحدى أكبر غابات المانغروف الحضرية في العالم — مزايا مشتركة من الكربون والتنوع البيولوجي في آنٍ واحد. تُضفي وثيقة الطرف المضيف شرعيةً رسمية على هذه الأصول باعتبارها مؤهلة لنقل الاعتمادات الدولية، لا مجرد محاسبة داخلية.</p>
+
+<h2>مشترٍ وبائع في آنٍ واحد</h2>
+<p>الأهم من ذلك أن الإمارات تضع نفسها <strong>مشترياً وبائعاً في آنٍ واحد</strong> في إطار المادة 6.4. وقد وقّعت بالفعل مذكرة تفاهم مع باراغواي خلال COP28 (أواخر عام 2023)، وانضمت إلى آلية الائتمان المشترك اليابانية في أبريل 2024 — وهما خطوتان تتسقان مع نهج دولة تعتزم شراء نتائج التخفيف المنقولة دولياً من ولايات أخرى، مع تصدير نتائجها الخاصة في الوقت ذاته.</p>
+
+<p>بالنسبة للمشاريع الطبيعية في الإمارات، فإن التداعيات بالغة الأهمية: باتت الاعتمادات الصادرة عن ممرات استعادة أشجار المانغروف في أبوظبي، والمشاريع الكربونية الزرقاء على امتداد ساحل الخليج، تمتلك مسار نقل دولي رسمي — لا مجرد تسمية في سوق طوعي.</p>
+
+<h2>مركز أبوظبي العالمي للسوق بوصفه المرساة التنظيمية</h2>
+<p>توفّر بيئة مركز أبوظبي العالمي للسوق (ADGM) التنظيمية التجريبية للحلول القائمة على الطبيعة وأسواق الكربون البنية التحتية للخدمات المالية التي من خلالها يمكن هيكلة اعتمادات المادة 6.4 وتداولها وحفظها في إطار قانوني موثوق. إن الجمع بين وثيقة الطرف المضيف الإماراتية لدى الأمم المتحدة والبنية التنظيمية لـ ADGM يجعل الإمارات من القلة من دول العالم التي بنت في آنٍ واحد البنية التحتية الأولية (أهلية المشروع) والبنية التحتية النهائية (الخدمات المالية) للمادة 6.</p>
+
+<p>ذو صلة: <a href="/en/blog/biodiversity-carbon-credits-convergence">اعتمادات التنوع البيولوجي واعتمادات الكربون: كيف تجمع الإمارات بينهما</a> | <a href="/en/blog/abu-dhabi-mangroves">أشجار المانغروف في أبوظبي: قوة للكربون والتنوع البيولوجي</a></p>`,
+      },
+    },
+  },
+  {
+    slug: "eu-aviation-tax-middle-east-impact",
+    date: "2026-07-17",
+    lang: {
+      en: {
+        title: "EU Aviation Tax Proposal: What €85 Per Ticket to the Middle East Means for Carbon",
+        excerpt: "The European Commission proposed extending EU ETS carbon costs to all flights within 5,000km of Frankfurt — covering routes to the Middle East. Airlines are opposing it. And the implications for Gulf carbon demand are real.",
+        content: `<p>In July 2026, the European Commission proposed extending the EU Emissions Trading System (ETS) to cover all departing flights within 5,000 kilometres of Frankfurt. The proposal would impose additional carbon costs of approximately <strong>€28–€85 per return ticket</strong> on routes to destinations including Turkey, North Africa, and the Middle East — bringing Gulf destinations firmly into the EU's carbon pricing perimeter.</p>
+
+<h2>Who It Affects</h2>
+<p>The proposal targets both EEA-based carriers — British Airways (IAG), Air France-KLM, Iberia, Vueling — and non-EEA airlines including <strong>Emirates, Etihad, and Turkish Airlines</strong>, which would face EU ETS costs on the full carbon footprint of their routes to and from European airports. IAG reported spending €233 million on EU ETS and Corsia compliance in H1 2026 alone, up 26% year-on-year. Air France-KLM's full-year carbon cost was €346 million.</p>
+
+<p>Both airline groups publicly oppose the extension. The Commission's motivation is partly to prevent traffic diversion to non-EU hubs: the proposal explicitly targets "leakage" to Dubai and Istanbul, where passengers might reroute long-haul flights to avoid EU carbon costs.</p>
+
+<h2>What It Means for Carbon Markets</h2>
+<p>The proposed extension matters for carbon markets in two ways:</p>
+<ul>
+<li><strong>Corsia demand signal</strong>: If EU ETS costs rise sharply for Gulf-routed aviation, airlines will face intensified pressure to secure cheaper Corsia-compliant offsets. Credits from UAE mangrove and blue carbon projects — which can qualify under Article 6.4 and Corsia — could see increased buyer interest from carriers seeking to offset at lower cost than EUA prices (~€81/tCO2e).</li>
+<li><strong>UAE carbon market positioning</strong>: The proposal strengthens the case for the UAE to develop domestic Corsia-eligible supply. With ADGM's regulatory framework and the July 2026 Host Party document listing eligible sectors, Abu Dhabi is positioned to supply credits to the very airlines that fly through its hub.</li>
+</ul>
+
+<h2>Timeline and Uncertainty</h2>
+<p>The proposal is not yet law. Both France and the Netherlands have expressed opposition at Council level, and EEA member state resistance may delay or modify the final scope. Corsia Phase 2 begins in 2027 — the policy timeline is tight. Developers and buyers should watch Council and Parliament negotiations closely in H2 2026.</p>
+
+<p>For the Gulf, this is both a risk and an opportunity: a carbon cost that could reshape aviation economics in the region, and a demand signal that rewards early investment in credible, Corsia-eligible nature-based carbon supply.</p>
+
+<p>Related: <a href="/en/blog/uae-article-6-sectors-confirmed">UAE Confirms Article 6.4 Eligible Sectors</a> | <a href="/en/blog/central-asia-gulf-carbon-hubs">The UAE and Kazakhstan: Emerging Regional Carbon Hubs</a></p>`,
+      },
+      ar: {
+        title: "اقتراح الضريبة الأوروبية على الطيران: ما معنى €85 لكل تذكرة إلى الشرق الأوسط لأسواق الكربون؟",
+        excerpt: "اقترحت المفوضية الأوروبية توسيع نطاق نظام ETS ليشمل جميع الرحلات ضمن 5000 كيلومتر من فرانكفورت — بما فيها رحلات الشرق الأوسط. شركات الطيران تعارض. والتداعيات على الطلب الخليجي على الكربون حقيقية.",
+        content: `<p>في يوليو 2026، اقترحت المفوضية الأوروبية توسيع نطاق نظام تداول الانبعاثات الأوروبي (EU ETS) ليشمل جميع الرحلات المغادِرة ضمن 5,000 كيلومتر من فرانكفورت. يفرض هذا الاقتراح تكاليف كربونية إضافية تبلغ تقريباً <strong>€28–€85 لكل تذكرة ذهاب وإياب</strong> على الطرق المتجهة إلى وجهات تشمل تركيا وشمال أفريقيا والشرق الأوسط — لتدخل وجهات الخليج بذلك رسمياً في نطاق التسعير الكربوني الأوروبي.</p>
+
+<h2>من يتأثر؟</h2>
+<p>يستهدف الاقتراح شركات طيران من المنطقة الاقتصادية الأوروبية — بريتيش إيرويز (IAG)، وAir France-KLM، وإيبيريا، وVueling — وكذلك شركات من خارجها بما فيها <strong>طيران الإمارات وطيران الاتحاد والخطوط الجوية التركية</strong>، التي ستواجه تكاليف EU ETS على البصمة الكربونية الكاملة لرحلاتها من وإلى المطارات الأوروبية. أنفق IAG 233 مليون يورو على الامتثال لـ EU ETS وكورسيا في النصف الأول من 2026 وحده، بزيادة 26% على أساس سنوي. بلغت تكلفة الكربون السنوية الكاملة لـ Air France-KLM 346 مليون يورو.</p>
+
+<p>كلا مجموعتي الطيران تعارضان التوسيع علناً. دافع المفوضية جزئياً هو منع تحويل حركة المرور إلى مراكز من خارج الاتحاد الأوروبي: يستهدف الاقتراح صراحةً "التسرب" إلى دبي وإسطنبول، حيث قد يُعيد المسافرون توجيه رحلاتهم عبر المحيطات تفادياً لتكاليف الكربون الأوروبية.</p>
+
+<h2>ما معنى ذلك لأسواق الكربون؟</h2>
+<p>يؤثر الاقتراح على أسواق الكربون بطريقتين:</p>
+<ul>
+<li><strong>إشارة الطلب في إطار كورسيا</strong>: إذا ارتفعت تكاليف EU ETS بحدة لشركات الطيران التي تسلك طرق الخليج، ستواجه ضغطاً متصاعداً للحصول على أرصدة متوافقة مع كورسيا بتكلفة أقل. وقد تشهد الاعتمادات الصادرة عن مشاريع المانغروف والكربون الأزرق في الإمارات — المؤهلة في إطار المادة 6.4 وكورسيا — اهتماماً متزايداً من شركات الطيران الساعية للتعويض بتكلفة أدنى من أسعار EUA (نحو €81/طن CO2).</li>
+<li><strong>تموضع سوق الكربون الإماراتي</strong>: يُعزز الاقتراح مبررات تطوير الإمارات لعرض محلي مؤهل لكورسيا. مع الإطار التنظيمي لـ ADGM ووثيقة الطرف المضيف لشهر يوليو 2026 التي تُدرج القطاعات المؤهلة، تتموضع أبوظبي لتزويد شركات الطيران التي تعبر عبر مركزها بالاعتمادات الكربونية.</li>
+</ul>
+
+<h2>الجدول الزمني وحالة عدم اليقين</h2>
+<p>الاقتراح ليس قانوناً بعد. أبدت كل من فرنسا وهولندا معارضتهما على مستوى المجلس، وقد تُؤخّر مقاومة الدول الأعضاء في المنطقة الاقتصادية الأوروبية أو تُعدِّل النطاق النهائي. تبدأ المرحلة الثانية من كورسيا في 2027 — الجدول الزمني للسياسات ضيق. ينبغي للمطورين والمشترين متابعة مفاوضات المجلس والبرلمان عن كثب خلال النصف الثاني من 2026.</p>
+
+<p>بالنسبة للخليج، يشكّل ذلك مخاطرة وفرصة في آنٍ واحد: تكلفة كربونية قد تُعيد تشكيل الاقتصاد الجوي في المنطقة، وإشارة طلب تكافئ الاستثمار المبكر في عرض كربون طبيعي موثوق ومؤهل لكورسيا.</p>
+
+<p>ذو صلة: <a href="/en/blog/uae-article-6-sectors-confirmed">الإمارات تؤكد القطاعات المؤهلة للمادة 6.4</a> | <a href="/en/blog/central-asia-gulf-carbon-hubs">الإمارات وكازاخستان: مراكز كربون إقليمية ناشئة</a></p>`,
+      },
+    },
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
