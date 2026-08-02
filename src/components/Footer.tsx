@@ -2,6 +2,7 @@
 
 import { useLang } from "@/lib/LangContext";
 import { translations } from "@/lib/translations";
+import NewsletterSubscribe from "./NewsletterSubscribe";
 
 export default function Footer() {
   const { lang } = useLang();
@@ -101,6 +102,17 @@ export default function Footer() {
               ))}
             </ul>
           </div>
+        </div>
+
+        {/* Newsletter subscribe */}
+        <div className="border-t border-white/[0.06] pt-8 mb-8">
+          <NewsletterSubscribe
+            lang={lang}
+            siteKey="biodiversityae"
+            workerUrl="https://co2-newsletter-subscribe.sd-5ec.workers.dev"
+            accentColor="#c9a84c"
+            btnColor="#1a5276"
+          />
         </div>
 
         <div className="border-t border-white/[0.06] pt-6">
