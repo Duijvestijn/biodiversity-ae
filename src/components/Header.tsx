@@ -49,6 +49,7 @@ export default function Header() {
     { label: t.why, href: "#why-uae" },
     { label: t.projects, href: "#projects" },
     { label: t.insights, href: `/${lang}/insights` },
+    { label: t.blog, href: `/${lang}/blog` },
     { label: t.contact, href: "#contact" },
   ];
 

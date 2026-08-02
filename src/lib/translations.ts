@@ -10,6 +10,7 @@ export const translations = {
       why: "لماذا الإمارات",
       contact: "تواصل",
       insights: "المقالات",
+      blog: "المدونة",
       lang: "EN",
     },
     en: {
@@ -20,6 +21,7 @@ export const translations = {
       why: "Why UAE",
       contact: "Contact",
       insights: "Insights",
+      blog: "Blog",
       lang: "عربي",
     },
   },
@@ -558,6 +560,33 @@ export const translations = {
           desc: "استعداد الإمارات للمادة 6 — كما تجلّى في COP28 — يعني أن المشاريع المحلية عالية النزاهة يمكنها توليد نتائج تخفيف منقولة دولياً (ITMOs) لتحقيق أهداف NDC الوطنية والتداول الدولي.",
         },
       ],
+    },
+  },
+  newsletter: {
+    en: {
+      label: "Stay Informed",
+      title: "UAE Biodiversity & Carbon Intelligence",
+      subtitle:
+        "Weekly insights on UAE's carbon markets, COP28 developments, mangrove credit opportunities, and ADGM announcements.",
+      placeholder: "your@email.com",
+      namePlaceholder: "First name (optional)",
+      button: "Subscribe",
+      success:
+        "You're subscribed. Welcome to the UAE Biodiversity newsletter.",
+      error: "Something went wrong. Please try again.",
+      privacy: "No spam. Unsubscribe anytime.",
+    },
+    ar: {
+      label: "ابقَ على اطلاع",
+      title: "استخبارات التنوع البيولوجي والكربون في الإمارات",
+      subtitle:
+        "رؤى أسبوعية حول أسواق الكربون الإماراتية وتطورات COP28 وفرص ائتمانات المانغروف وإعلانات ADGM.",
+      placeholder: "بريدك@الإلكتروني.com",
+      namePlaceholder: "الاسم الأول (اختياري)",
+      button: "اشترك",
+      success: "تم اشتراكك. مرحباً بك في نشرة التنوع البيولوجي الإماراتية.",
+      error: "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+      privacy: "لا بريد مزعج. إلغاء الاشتراك في أي وقت.",
     },
   },
 };

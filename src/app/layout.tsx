@@ -7,17 +7,19 @@ import Script from "next/script";
 const orgJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Biodiversity.ae",
-  alternateName: ["UAE Biodiversity", "التنوع البيولوجي الإمارات"],
+  name: "Biodiversity UAE",
   url: "https://biodiversity.ae",
-  description:
-    "UAE's leading platform for biodiversity and carbon finance — mangrove forests, afforestation, and nature reserves under Verra VCS and COP28 commitments.",
-  areaServed: { "@type": "Country", name: "United Arab Emirates" },
-  knowsAbout: [
-    "Carbon Credits", "Biodiversity UAE", "Mangrove Blue Carbon",
-    "COP28", "Net Zero 2050", "Verra VCS", "UAE Climate Finance",
-    "Nature Positive", "Afforestation UAE",
-  ],
+  description: "UAE biodiversity credits and carbon markets — mangrove restoration, COP28 developments, and ADGM framework.",
+  sameAs: ["https://co2.ke", "https://co2.africa"],
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Biodiversity.ae",
+  url: "https://biodiversity.ae",
+  inLanguage: ["en", "ar"],
+  description: "UAE biodiversity and carbon markets intelligence platform.",
 };
 
 export const metadata: Metadata = {
@@ -57,6 +59,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd).replace(/</g, "\\u003c") }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd).replace(/</g, "\\u003c") }}
         />
       </head>
       <Script id="gtm-loader" strategy="afterInteractive">

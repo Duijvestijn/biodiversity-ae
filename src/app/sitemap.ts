@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllSlugs } from "@/lib/articles";
+import { posts } from "@/lib/posts";
 
 export const dynamic = "force-static";
 
@@ -21,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
     { path: "", priority: 1.0 },
     { path: "/insights", priority: 0.8 },
+    { path: "/blog", priority: 0.8 },
   ];
 
   const entries: MetadataRoute.Sitemap = [];
@@ -45,6 +47,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly",
         priority: lang === "en" ? 0.7 : 0.65,
         alternates: { languages: altLangs(`/insights/${slug}`) },
+      });
+    }
+  }
+
+  for (const post of posts) {
+    for (const lang of LANGS) {
+      entries.push({
+        url: `${BASE}/${lang}/blog/${post.slug}`,
+        lastModified: new Date(post.date),
+        changeFrequency: "monthly",
+        priority: lang === "en" ? 0.7 : 0.65,
+        alternates: { languages: altLangs(`/blog/${post.slug}`) },
       });
     }
   }

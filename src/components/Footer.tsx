@@ -34,6 +34,7 @@ export default function Footer() {
                 { label: nav.why, href: "#why-uae" },
                 { label: nav.projects, href: "#projects" },
                 { label: nav.insights, href: `/${lang}/insights` },
+                { label: nav.blog, href: `/${lang}/blog` },
                 { label: nav.contact, href: "#contact" },
               ].map(({ label, href }) => (
                 <li key={href}>

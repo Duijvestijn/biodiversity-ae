@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
+# Host
+Host: https://biodiversity.ae
+
+# Sitemaps
 Sitemap: https://biodiversity.ae/sitemap.xml
