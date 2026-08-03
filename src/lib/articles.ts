@@ -72,108 +72,42 @@ export const articles: Article[] = [
     date: "April 2026",
     readTime: 5,
     title: {
-      en: "Abu Dhabi Mangrove Credits Trade at $28/tCO₂ — 3x the Global Average",
-      ar: "ائتمانات مانغروف أبوظبي تُتداول بـ 28$/tCO₂ — ثلاثة أضعاف المتوسط العالمي",
+      en: "UAE Blue Carbon Markets: Emerging Opportunity Across Mangrove and Seagrass Ecosystems",
+      ar: "أسواق الكربون الأزرق في الإمارات: فرصة ناشئة عبر أنظمة المانغروف والأعشاب البحرية",
     },
     excerpt: {
-      en: "Demand from European and Asian institutional buyers has pushed Abu Dhabi blue carbon credits to $28/tCO₂, establishing UAE mangrove credits as among the world's most valuable voluntary carbon instruments.",
-      ar: "دفع الطلب من المشترين المؤسسيين الأوروبيين والآسيويين ائتمانات الكربون الأزرق في أبوظبي إلى 28$/tCO₂، مما يجعل ائتمانات مانغروف الإمارات من أكثر أدوات الكربون الطوعية قيمةً في العالم.",
+      en: "The UAE's coastal mangrove, seagrass, and coral reef ecosystems represent a significant emerging opportunity for biodiversity credit development, with growing institutional interest from European and Asian buyers seeking nature-based solutions.",
+      ar: "تمثّل أنظمة المانغروف والأعشاب البحرية والشعاب المرجانية الساحلية في الإمارات فرصة ناشئة مهمة لتطوير ائتمانات التنوع البيولوجي.",
     },
     content: {
-      en: `<p class="lead">Abu Dhabi mangrove blue carbon credits reached an average traded price of $28 per tonne of CO₂ equivalent in Q1 2026 — more than three times the global voluntary carbon market average of $8.40/tCO₂e recorded over the same period. The premium reflects the intersection of ecosystem rarity, rigorous certification, and rapidly escalating institutional demand from corporate buyers across Europe and Asia.</p>
+      en: `<p class="lead">Biodiversity credits are an emerging market in the UAE, with significant potential across mangrove, seagrass, and coral reef ecosystems. Market prices for nature-based credits vary depending on project type, certification standard, and co-benefit profile — and the UAE's unique coastal ecosystems are attracting growing attention from institutional buyers worldwide.</p>
 
-<h2>Abu Dhabi's Mangrove Ecosystem: A World-Class Carbon Asset</h2>
-<p>Abu Dhabi holds 63% of the UAE's total mangrove forest area — approximately 75,000 hectares of tidal wetland habitat concentrated in the Eastern Mangrove Lagoon National Park, Jubail Island, and the coastal zone between Abu Dhabi Island and Yas Island. These ecosystems are classified by the International Union for Conservation of Nature (IUCN) as among the most carbon-dense coastal habitats on Earth.</p>
-<p>Mangrove soil carbon — accumulated over millennia in the deep, anaerobic sediments beneath the root mat — sequesters 3 to 5 times more carbon per hectare than an equivalent area of tropical rainforest. Unlike above-ground biomass carbon, which is vulnerable to fire, drought, and disease, below-ground blue carbon is effectively permanent on timescales relevant to climate policy. This permanence characteristic is one of the primary drivers of the blue carbon price premium.</p>
+<h2>UAE Coastal Ecosystems: A Blue Carbon Opportunity</h2>
+<p>The UAE's coastal zone hosts a remarkable diversity of blue carbon ecosystems: mangrove forests along the Abu Dhabi coastline, extensive seagrass meadows across the shallow Arabian Gulf shelf, and coral reef systems in the Gulf of Oman. Each of these ecosystem types stores carbon in distinct ways and provides a suite of biodiversity co-benefits — from fish nursery habitat to endangered species refugia — that are increasingly valued by corporate buyers seeking to meet nature-related disclosure requirements under frameworks such as TNFD and SBTN.</p>
+<p>Mangrove soil carbon — accumulated over millennia in anaerobic sediments — sequesters carbon at rates significantly higher per hectare than equivalent areas of tropical rainforest. Seagrass meadows provide comparable blue carbon value alongside critical habitat for dugongs and sea turtles. These ecosystem characteristics, when certified under international frameworks such as Verra's VM0033 methodology, create high-quality nature-based credits with measurable biodiversity co-benefits.</p>
 
-<h2>VM0033: The Methodology Behind the Premium</h2>
-<p>Abu Dhabi mangrove projects are structured under Verra's VM0033 — Methodology for Tidal Wetland and Seagrass Restoration — one of the most demanding and scientifically rigorous carbon accounting frameworks available. VM0033 requires project developers to measure and model six distinct carbon pools: above-ground living biomass, below-ground biomass, dead wood, litter, below-ground organic carbon (soil), and dissolved organic carbon exported to adjacent open waters.</p>
-<p>The methodology also requires accounting for three greenhouse gases — CO₂, methane (CH₄), and nitrous oxide (N₂O) — and mandates that methane emissions from tidal wetlands be rigorously measured and deducted from the credit total. This level of scientific rigour makes VM0033 credits more expensive to generate but significantly more defensible under third-party audit — which is precisely what institutional buyers subject to CSRD, TCFD, or SBTi verification processes require.</p>
+<h2>VM0033: The Certification Framework</h2>
+<p>UAE mangrove and seagrass projects are being explored under Verra's VM0033 — Methodology for Tidal Wetland and Seagrass Restoration — one of the most scientifically rigorous carbon accounting frameworks available. VM0033 requires project developers to measure and model six distinct carbon pools and account for three greenhouse gases, making credits generated under this methodology particularly robust for institutional buyers subject to third-party audit requirements.</p>
 
 <h2>Biodiversity Co-Benefits: The Value Beyond Carbon</h2>
-<p>A key differentiator for Abu Dhabi mangrove credits is the richness of documented biodiversity co-benefits. Aerial and field surveys conducted in project areas have recorded breeding populations of the Socotra Cormorant — classified as Vulnerable by the IUCN — alongside flamingo colonies, hawksbill sea turtle nesting, and dugong feeding grounds. These observations are incorporated into project documentation and allow buyers to report both carbon and biodiversity outcomes under a single credit purchase.</p>
-<p>For European companies subject to the EU Corporate Sustainability Reporting Directive (CSRD), which from 2025 requires disclosure under European Sustainability Reporting Standards (ESRS) including biodiversity impact, this dual-benefit credential is increasingly valuable. Several European financial institutions and energy companies have specifically sought Abu Dhabi blue carbon credits as assets that satisfy both their CSRD biodiversity disclosure requirements and their voluntary carbon neutrality commitments — a combination that no standard terrestrial forest credit can provide.</p>
+<p>A key feature of UAE coastal ecosystem projects is the richness of potential biodiversity co-benefits. Abu Dhabi's mangrove areas provide habitat for the Socotra Cormorant — classified as Vulnerable by the IUCN — alongside flamingo colonies, hawksbill sea turtle nesting, and dugong feeding grounds. These documented biodiversity values allow buyers to report both carbon and biodiversity outcomes, satisfying requirements under frameworks including the EU Corporate Sustainability Reporting Directive (CSRD).</p>
 
-<h2>EU CSRD and Asian ESG Frameworks: The Institutional Demand Drivers</h2>
-<p>European institutional demand for Abu Dhabi credits is being driven primarily by CSRD compliance timelines. Large EU-listed companies were required to begin disclosing under ESRS from January 2025, with biodiversity and ecosystem impact as a mandatory reporting topic. Companies that can demonstrate procurement of credits with verified biodiversity co-benefits — ideally from geographically significant, high-profile ecosystems — gain a disclosure narrative advantage that purely carbon-focused credits cannot provide.</p>
-<p>From Asia, Japanese, South Korean, and Singaporean institutional buyers have been active in the Abu Dhabi credit market, motivated by domestic ESG disclosure frameworks and the growing expectation from Japanese keiretsu groups and Korean conglomerates that sustainability credentials will be required for participation in UAE government procurement and joint venture opportunities — creating a demand signal directly linked to UAE commercial relationships.</p>
+<h2>Institutional Demand and Market Development</h2>
+<p>European and Asian institutional buyers are showing growing interest in UAE blue carbon opportunities, driven by CSRD compliance timelines and ESG disclosure requirements. The Abu Dhabi Global Market (ADGM) Carbon Trading Platform provides a regulated environment for credit transactions, supporting market development and price discovery. As the market matures, biodiversity credits represent a significant emerging opportunity across the UAE's coastal ecosystem portfolio.</p>`,
 
-<h2>Supply Constraints and the Price Outlook</h2>
-<p>Despite the premium pricing, supply of Abu Dhabi mangrove credits remains constrained. The total verified credit issuance from Abu Dhabi mangrove projects in 2025 was approximately 180,000 tCO₂e — a fraction of the multi-million tonne demand that institutional buyers have signalled. Project development timelines under VM0033 are long: baseline establishment, PDD preparation, and first verification typically require 24–36 months before the first credits can be issued.</p>
-<p>This supply-demand imbalance is expected to sustain — and potentially extend — the blue carbon price premium through 2028 at minimum. For investors and project developers entering the Abu Dhabi blue carbon market now, the combination of price premium, long-dated supply constraints, and regulatory tailwinds from CSRD and the UAE's own sustainability disclosure framework represents one of the most attractive risk-adjusted entry points in the global voluntary carbon market.</p>`,
+      ar: `<p class="lead">ائتمانات التنوع البيولوجي سوق ناشئ في الإمارات، مع إمكانات كبيرة عبر أنظمة المانغروف والأعشاب البحرية والشعاب المرجانية. أسعار السوق لائتمانات الكربون الطبيعية تتفاوت بحسب نوع المشروع ومعيار الاعتماد وملف المزايا المشتركة.</p>
 
-      ar: `<p class="lead">بلغت ائتمانات الكربون الأزرق لمانغروف أبوظبي متوسط سعر تداول قدره 28 دولاراً للطن من مكافئ CO₂ في الربع الأول من 2026 — أي ما يزيد على ثلاثة أضعاف متوسط سوق الكربون الطوعي العالمي البالغ 8.40 دولار. يعكس هذا الفارق تقاطع ندرة النظام البيئي والاعتماد الصارم والطلب المؤسسي المتصاعد من المشترين الأوروبيين والآسيويين.</p>
+<h2>النظم البيئية الساحلية للإمارات: فرصة كربون أزرق</h2>
+<p>تضم المنطقة الساحلية للإمارات تنوعاً بيئياً ملحوظاً: غابات المانغروف على طول ساحل أبوظبي، ومروج الأعشاب البحرية الشاسعة في الخليج العربي الضحل، وأنظمة الشعاب المرجانية في خليج عُمان. يحتجز كل من هذه الأنظمة البيئية الكربون بطرق مختلفة ويوفر مجموعة من مزايا التنوع البيولوجي المشتركة التي يقدّرها المشترون المؤسسيون بشكل متزايد.</p>
 
-<h2>نظام المانغروف في أبوظبي: أصل كربوني عالمي المستوى</h2>
-<p>تمتلك أبوظبي 63% من إجمالي مساحة غابات المانغروف في الإمارات — ما يقارب 75,000 هكتار من موائل الأراضي الرطبة المدية. تُعد هذه الأنظمة البيئية من أكثر الموائل الساحلية كثافةً في الكربون على وجه الأرض. يعزل الكربون الموجود في تربة المانغروف ما يتراوح بين 3 و5 أضعاف الكربون للهكتار مقارنةً بالغابات الاستوائية المطيرة.</p>
-
-<h2>منهجية VM0033: العلم وراء العلاوة السعرية</h2>
-<p>تُنظَّم مشاريع مانغروف أبوظبي بموجب منهجية Verra VM0033 — إحدى أكثر أطر محاسبة الكربون صرامةً ودقةً علمية. تُلزم هذه المنهجية مطوري المشاريع بقياس ست مجمعات كربونية مختلفة وتبعات ثلاثة غازات دفيئة. هذا المستوى من الدقة يجعل ائتمانات VM0033 أكثر قابلية للدفاع عنها في عمليات التدقيق الخارجي — وهو بالضبط ما يحتاجه المشترون المؤسسيون الخاضعون لمعايير CSRD وSBTi.</p>
+<h2>منهجية VM0033: إطار الاعتماد</h2>
+<p>تُستكشف مشاريع المانغروف والأعشاب البحرية في الإمارات في إطار منهجية Verra VM0033 — إحدى أكثر أطر محاسبة الكربون صرامةً ودقةً علمية. تتطلب هذه المنهجية من مطوري المشاريع قياس ست مجمعات كربونية مختلفة ومحاسبة ثلاثة غازات دفيئة.</p>
 
 <h2>مزايا التنوع البيولوجي: القيمة ما وراء الكربون</h2>
-<p>من المزايا التفاضلية الرئيسية لائتمانات مانغروف أبوظبي غنى المزايا الموثقة للتنوع البيولوجي، بما فيها تكاثر طير الغاق السقطري المهدد بالانقراض وأعشاش السلاحف، مما يتيح للمشترين الإبلاغ عن نتائج الكربون والتنوع البيولوجي معاً من عملية شراء ائتمان واحد.</p>
+<p>من الميزات الرئيسية لمشاريع النظم البيئية الساحلية في الإمارات غنى مزايا التنوع البيولوجي المحتملة. توفر مناطق المانغروف في أبوظبي موئلاً لطير الغاق السقطري المصنّف كنوع مهدد، إلى جانب مستعمرات الفلامنغو وأعشاش سلاحف الظهر الصفحي ومواقع تغذية الدُغُنغ.</p>
 
-<h2>الطلب المؤسسي الأوروبي والآسيوي</html>
-<p>يدفع الطلبَ الأوروبيَّ في المقام الأول الامتثالُ لتوجيه إعداد تقارير الاستدامة للشركات (CSRD)، الذي يتطلب الإفصاح عن أثر التنوع البيولوجي. أما من آسيا، فتنشط المؤسسات اليابانية والكورية الجنوبية والسنغافورية في سوق ائتمانات أبوظبي، مدفوعةً بأطر الإفصاح عن ESG المحلية والتوقعات التجارية المرتبطة بمشاريع مشتركة مع حكومة الإمارات.</p>`,
-    },
-  },
-  {
-    slug: "uae-adnoc-nature-restoration-fund",
-    tag: "Biodiversity",
-    tagAr: "تنوع بيولوجي",
-    date: "March 2026",
-    readTime: 7,
-    title: {
-      en: "UAE Commits $2B to Nature Restoration Through ADNOC Carbon Fund",
-      ar: "الإمارات تلتزم بـ 2 مليار دولار لاستعادة الطبيعة عبر صندوق كربون ADNOC",
-    },
-    excerpt: {
-      en: "ADNOC's new $2 billion Nature Restoration Fund will finance mangrove expansion, desert afforestation, and seagrass restoration across the UAE and Arabian Peninsula, generating an estimated 8M annual carbon credits by 2030.",
-      ar: "سيمول صندوق استعادة الطبيعة الجديد لـ ADNOC بقيمة 2 مليار دولار توسع المانغروف والتشجير الصحراوي واستعادة الأعشاب البحرية عبر الإمارات وشبه الجزيرة العربية.",
-    },
-    content: {
-      en: `<p class="lead">The Abu Dhabi National Oil Company (ADNOC) announced in March 2026 the establishment of a $2 billion Nature Restoration Fund — the largest single commitment to nature-based carbon project development in the Middle East and North Africa region. The fund will finance three categories of ecosystem restoration across the UAE and Arabian Peninsula: mangrove expansion, desert afforestation, and seagrass restoration.</p>
-
-<h2>The Strategic Logic: From Oil Producer to Carbon Market Architect</h2>
-<p>ADNOC's move into nature-based carbon finance is not a departure from its core identity — it is an extension of it. As the UAE's national oil company navigates the energy transition, generating high-quality domestic carbon credits serves multiple strategic objectives simultaneously: it contributes to the UAE's NDC commitments under the Paris Agreement, provides ADNOC with internally generated offset credits for its own Scope 1 and 2 emissions reporting, and positions the company as a credible participant in the emerging Article 6 bilateral market architecture that the UAE pioneered at COP28.</p>
-<p>The $2 billion commitment is structured over a ten-year horizon (2026–2036), with approximately $400 million committed in the first tranche and operational activity beginning in Q3 2026. The fund will be managed by ADNOC's sustainability subsidiary, with an independent technical advisory board comprising representatives from Verra, the International Blue Carbon Initiative, and the UAE Ministry of Climate Change and Environment.</p>
-
-<h2>Mangrove Expansion: 30 Million New Trees by 2030</h2>
-<p>The largest single component of the Nature Restoration Fund — approximately $850 million — is allocated to mangrove expansion across Abu Dhabi, Ras Al Khaimah, and Umm Al Quwain. The programme targets the planting of 30 million new mangrove trees by 2030, building on the UAE government's existing commitment to 100 million mangrove trees by 2030 under the national biodiversity strategy.</p>
-<p>New planting sites have been identified through a comprehensive remote sensing survey covering 1,200 kilometres of UAE coastline. Priority sites include the Al Dhafra region south-west of Abu Dhabi (where tidal conditions are particularly suited to Avicennia marina, the dominant UAE mangrove species), the Khor Kalba estuary in Sharjah (which already hosts one of the northernmost mangrove forests in the world), and the tidal flats of Ras Al Khaimah's eastern coast.</p>
-<p>Carbon credit generation from the mangrove expansion programme will begin at year 5 post-planting, when sufficient biomass and soil carbon accumulation can be verified under VM0033. At steady-state (projected at year 12), the 30 million new trees across an estimated 18,000 hectares are expected to generate approximately 3.2 million verified tCO₂e credits annually.</p>
-
-<h2>Desert Afforestation: Ghaf Trees and the Emirates' Native Carbon</h2>
-<p>The second component — $600 million — funds large-scale desert afforestation using the Ghaf tree (Prosopis cineraria), the UAE's national tree and one of the most drought-tolerant woody species in the Arabian Peninsula. The Ghaf Programme will target 50,000 hectares of degraded desert and former agricultural land in Abu Dhabi's Al Ain region and the inland desert zones of Dubai and Sharjah.</p>
-<p>Desert afforestation using native species is significantly more challenging to certify under existing voluntary carbon methodologies than coastal wetland restoration — primarily because soil carbon accumulation rates are lower and evapotranspiration losses are harder to model. ADNOC has commissioned a bespoke methodology development project through Verra's methodology development programme, expected to be finalised by Q4 2026. If approved, the Ghaf methodology would be the first certified framework for Arabian desert afforestation — a potential export of intellectual property as well as carbon credits to neighbouring countries with similar arid ecosystems.</p>
-<p>Projected credit generation from the desert component, pending methodology certification, is estimated at 1.8–2.4 million tCO₂e annually at full operation by 2032.</p>
-
-<h2>Seagrass Restoration: The Hidden Blue Carbon Asset</h2>
-<p>The most scientifically novel component of the fund — $550 million — is dedicated to seagrass meadow restoration across the UAE's shallow coastal waters. UAE seagrass meadows, dominated by Halodule uninervis and Cymodocea rotundata species, cover an estimated 220,000 hectares of seafloor in waters up to 8 metres deep — making them one of the largest seagrass ecosystems in the Arabian Gulf region.</p>
-<p>Seagrass is a globally undervalued blue carbon asset. Per hectare, seagrass meadows sequester carbon at rates comparable to mangroves — and they provide additional ecosystem services including juvenile fish nursery habitat, sea turtle grazing grounds, and sediment stabilisation that reduces coastal erosion. Despite this value, seagrass meadows have declined by an estimated 25% in UAE coastal waters since 1980, primarily due to vessel anchoring damage, coastal construction runoff, and water temperature increases associated with the warming of the Arabian Gulf.</p>
-<p>The ADNOC fund will finance seagrass restoration through a combination of active transplanting programmes (using certified donor meadows from protected marine areas), anchor-free mooring installation in critical seagrass zones, and water quality improvement measures to reduce turbidity in priority restoration sites.</p>
-
-<h2>8 Million Credits by 2030: The Market Impact</h2>
-<p>Across all three components, ADNOC projects that the Nature Restoration Fund will generate approximately 8 million verified carbon credits annually by 2030 — a figure that would represent a more than fivefold increase in UAE domestic credit supply from the current base. This supply expansion is deliberately calibrated to meet institutional demand without flooding the market: ADNOC has engaged in preliminary off-take discussions with 14 major UAE and GCC corporations, and a portion of the fund's output has been pre-allocated under long-term corporate purchase agreements.</p>
-<p>For the broader UAE carbon market, the ADNOC commitment is transformative. It provides the supply certainty that corporate buyers need to make multi-year procurement commitments, it establishes the ecosystem restoration infrastructure that future project developers can build upon, and it signals to the international investor community that the UAE is approaching nature-based climate finance with the same strategic seriousness that it has historically applied to energy infrastructure.</p>
-<p>Green Earth Group is in active dialogue with ADNOC's sustainability subsidiary regarding co-development opportunities for seagrass certification methodology and project implementation support in targeted coastal restoration zones. We will publish further updates as these discussions progress.</p>`,
-
-      ar: `<p class="lead">أعلنت شركة أبوظبي الوطنية للنفط (ADNOC) في مارس 2026 عن إنشاء صندوق استعادة الطبيعة بقيمة 2 مليار دولار — أكبر التزام فردي لتطوير مشاريع الكربون القائمة على الطبيعة في منطقة الشرق الأوسط وشمال أفريقيا. سيمول الصندوق ثلاث فئات من استعادة النظم البيئية عبر الإمارات وشبه الجزيرة العربية: توسع المانغروف، والتشجير الصحراوي، واستعادة الأعشاب البحرية.</p>
-
-<h2>المنطق الاستراتيجي: من منتج للنفط إلى مهندس لسوق الكربون</h2>
-<p>لا يُعدّ انتقال ADNOC إلى تمويل الكربون القائم على الطبيعة ابتعاداً عن هويته الجوهرية، بل هو امتداد لها. يُسهم توليد ائتمانات الكربون المحلية عالية الجودة في تحقيق أهداف الإمارات في إطار اتفاقية باريس، ويوفر لـ ADNOC ائتمانات تعويضية مُولَّدة داخلياً لإعداد تقارير انبعاثات النطاقين 1 و2، ويُرسخ مكانة الشركة بوصفها مشاركاً موثوقاً في هيكل سوق المادة 6 الثنائي الذي أرست الإمارات دعائمه في COP28.</p>
-
-<h2>توسع المانغروف: 30 مليون شجرة جديدة بحلول 2030</h2>
-<p>المكوّن الأكبر من صندوق استعادة الطبيعة — ما يقارب 850 مليون دولار — مخصص لتوسع المانغروف عبر أبوظبي ورأس الخيمة وأم القيوين. يستهدف البرنامج زراعة 30 مليون شجرة مانغروف جديدة بحلول 2030. عند الوصول إلى الحالة المستقرة (المتوقعة في السنة الثانية عشرة)، يُتوقع أن تُولّد الأشجار الجديدة على مساحة 18,000 هكتار نحو 3.2 مليون طن من مكافئ CO₂ سنوياً.</p>
-
-<h2>التشجير الصحراوي: أشجار الغاف وكربون الإمارات الأصيل</h2>
-<p>المكوّن الثاني — 600 مليون دولار — يُموّل التشجير الصحراوي واسع النطاق بشجرة الغاف (Prosopis cineraria)، الشجرة الوطنية للإمارات. يستهدف البرنامج 50,000 هكتار من الأراضي الصحراوية المتدهورة. وكلَّف ADNOC تطوير منهجية خاصة من خلال برنامج Verra، ومتوقع الانتهاء منها بنهاية 2026. إذا اعتُمدت، ستكون منهجية الغاف أول إطار معتمد للتشجير الصحراوي العربي — ذخيرة فكرية قابلة للتصدير إلى دول الجوار.</p>
-
-<h2>استعادة الأعشاب البحرية: الأصل الأزرق المجهول</h2>
-<p>المكوّن الأكثر ابتكاراً علمياً — 550 مليون دولار — مخصص لاستعادة مروج الأعشاب البحرية في المياه الساحلية الضحلة للإمارات، التي تغطي ما يُقدَّر بـ 220,000 هكتار من قاع البحر. تُقيّد الأعشاب البحرية الكربون بمعدلات مماثلة للمانغروف، وتوفر موائل أساسية لتكاثر الأسماك وهشيم السلاحف. يسعى الصندوق إلى استعادة هذه الأعشاب عبر برامج الزرع النشط وتثبيت أرساء خالية من المرساة في المناطق الحيوية.</p>
-
-<h2>8 ملايين ائتمان بحلول 2030: الأثر السوقي</h2>
-<p>يتوقع ADNOC أن يُولّد الصندوق نحو 8 ملايين ائتمان كربوني معتمد سنوياً بحلول 2030، أي ما يزيد على خمسة أضعاف عرض الإمارات المحلي الحالي. وقد أجرى ADNOC بالفعل مفاوضات أولية حول اتفاقيات شراء طويلة الأمد مع 14 شركة كبرى من الإمارات ودول الخليج. لـ Green Earth Group حوارات نشطة مع الشركة التابعة للاستدامة في ADNOC بشأن فرص التطوير المشترك لمنهجية اعتماد الأعشاب البحرية.</p>`,
+<h2>الطلب المؤسسي وتطوير السوق</h2>
+<p>يُبدي المشترون المؤسسيون الأوروبيون والآسيويون اهتماماً متزايداً بفرص الكربون الأزرق في الإمارات، مدفوعين بالتزامات الإفصاح عن CSRD ومتطلبات ESG. مع نضج السوق، تمثّل ائتمانات التنوع البيولوجي فرصة ناشئة مهمة عبر محفظة النظم البيئية الساحلية للإمارات.</p>`,
     },
   },
 ];
