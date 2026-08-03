@@ -1,24 +1,27 @@
 import { ImageResponse } from 'next/og'
 import { posts } from '@/lib/posts'
 
+export const dynamic = 'force-static'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
+
+const SUPPORTED_LANGS = ['en', 'ar']
+
+export function generateStaticParams() {
+  return SUPPORTED_LANGS.flatMap((lang) =>
+    posts.map((post) => ({ lang, slug: post.slug }))
+  )
+}
 
 export default async function Image({
   params,
 }: {
   params: Promise<{ lang: string; slug: string }>
 }) {
-  const { lang, slug } = await params
+  const { slug } = await params
   const post = posts.find((p) => p.slug === slug)
-  const postLang =
-    post?.lang?.[lang] ??
-    post?.lang?.['en'] ??
-    post?.lang?.['ar'] ??
-    post?.lang?.['ru'] ??
-    post?.lang?.['kk'] ??
-    Object.values(post?.lang ?? {})[0]
-  const title = postLang?.title ?? 'Biodiversity.ae — Insights'
+  // Always use English title — next/og does not support Arabic text rendering
+  const title = post?.lang?.['en']?.title ?? 'Biodiversity.ae — Insights'
 
   return new ImageResponse(
     (

@@ -24,8 +24,12 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       ? "رؤى سوق الكربون والتنوع البيولوجي في الإمارات."
       : "Biodiversity and carbon market insights from the UAE — mangroves, ADGM, and COP28 developments.",
     alternates: {
-      canonical: `${BASE}/en/blog`,
-      languages: { en: `${BASE}/en/blog`, ar: `${BASE}/ar/blog`, "x-default": `${BASE}/en/blog` },
+      canonical: `${BASE}/${lang}/blog`,
+      languages: {
+        "en-AE": `${BASE}/en/blog`,
+        "ar-AE": `${BASE}/ar/blog`,
+        "x-default": `${BASE}/en/blog`,
+      },
     },
   };
 }
@@ -63,19 +67,21 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
               : "Biodiversity and carbon market insights for the UAE."}
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {posts.map((post) => {
-              const t = post.lang[lang] || post.lang.en;
-              return (
-                <BlogCard
-                  key={post.slug}
-                  slug={post.slug}
-                  title={t.title}
-                  excerpt={t.excerpt}
-                  date={post.date}
-                  lang={lang}
-                />
-              );
-            })}
+            {[...posts]
+              .sort((a, b) => b.date.localeCompare(a.date))
+              .map((post) => {
+                const t = post.lang[lang] || post.lang.en;
+                return (
+                  <BlogCard
+                    key={post.slug}
+                    slug={post.slug}
+                    title={t.title}
+                    excerpt={t.excerpt}
+                    date={post.date}
+                    lang={lang}
+                  />
+                );
+              })}
           </div>
         </div>
       </main>
