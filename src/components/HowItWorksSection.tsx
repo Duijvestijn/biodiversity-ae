@@ -47,7 +47,7 @@ export default function HowItWorksSection() {
             <p className="font-bold text-lg mb-1">{t.ctaTitle}</p>
             <p className="text-white/70 text-sm">{t.ctaDesc}</p>
           </div>
-          <a href="#contact" className="flex-shrink-0 px-6 py-3 bg-white text-ae-teal font-bold text-sm rounded-xl hover:bg-ae-stone transition-colors">{t.ctaBtn}</a>
+          <a href="#insights" className="flex-shrink-0 px-6 py-3 bg-white text-ae-teal font-bold text-sm rounded-xl hover:bg-ae-stone transition-colors">{t.ctaBtn}</a>
         </motion.div>
       </div>
     </section>
